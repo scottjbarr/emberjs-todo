@@ -5,6 +5,7 @@
     "jquery": "~1.11.1",
     "handlebars": "1.1.2",
     "ember": "1.5.1",
-    "ember-data": "1.0.0-beta.5"
+    "ember-data": "1.0.0-beta.10",
+    "ember-localstorage-adapter": "0.3.2"
   }
 }

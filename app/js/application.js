@@ -1,3 +1,8 @@
 window.Todos = Ember.Application.create();
 
-Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+// use this when playing with fixtures
+// Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+
+Todos.ApplicationAdapter = DS.LSAdapter.extend({
+  namespace: 'todos-emberjs'
+});
