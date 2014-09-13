@@ -9,7 +9,8 @@ Todos.TodoController = Ember.ObjectController.extend({
 
       if (Ember.isEmpty(this.get('model.title'))) {
         this.send('removeTodo');
-      } else {
+      }
+      else {
         this.get('model').save();
       }
     },
@@ -29,7 +30,8 @@ Todos.TodoController = Ember.ObjectController.extend({
     if (value === undefined) {
       // property being used as a getter
       return model.get('isCompleted');
-    } else {
+    }
+    else {
       // property being used as a setter
       model.set('isCompleted', value);
       model.save();
