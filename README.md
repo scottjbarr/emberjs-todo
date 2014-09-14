@@ -26,14 +26,21 @@ If you're cloning this repo and you already  only need to execute the last line 
 
     npm install && bower install
 
-
 ## Running
 
     grunt server
 
+## References
+
+- [TodoMVC application](http://todomvc.com/)
+- [Getting Started](http://emberjs.com/guides/getting-started/)
+- [Yeoman](http://yeoman.io/)
+- [Bower](http://bower.io/)
+- [Ember at Embedly: Introduction to Ember Development](http://blog.embed.ly/post/46586649344/introduction-to-ember-development)
+
 ## Copyright
 
-I have no claims to this code.
+I have no claim to this code.
 
 The [Ember.js](http://emberjs.com) site is copyrighted by
 [Tilde INC.](http://tilde.io)
